@@ -9,6 +9,6 @@ Created artifacts are:
   3. Table
   2. Image
  
- The generated pdf file (target.pdf) is written to the output folder..
+ The generated pdf file (target.pdf) is written to the output folder.
  
- All the source code is placed in main class Program.
+ All the source code is placed in main class example.iText7pdfgeneration.Program.
