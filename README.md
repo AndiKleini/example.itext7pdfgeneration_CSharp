@@ -14,12 +14,12 @@ Add a paragraph with proper header and text (font size: 14, font HELVETICA).
 
 ``` C#
 Paragraph loremIpsumHeader = new Paragraph("Lorem Ipsum header...")
-                    .SetFont(PdfFontFactory.CreateFont(StandardFonts.HELVETICA))
-                    .SetFontSize(14)
-                    .SetBold()
-                    .SetFontColor(ColorConstants.RED);
-            document.Add(loremIpsumHeader);
-            document.Add(new Paragraph(LOREM_IPSUM_TEXT));
+          .SetFont(PdfFontFactory.CreateFont(StandardFonts.HELVETICA))
+          .SetFontSize(14)
+          .SetBold()
+          .SetFontColor(ColorConstants.RED);
+document.Add(loremIpsumHeader);
+document.Add(new Paragraph(LOREM_IPSUM_TEXT));
 ```
 ## List
 Create a list of items with a blue header (font site: 14, font: TIMES_BOLD).
