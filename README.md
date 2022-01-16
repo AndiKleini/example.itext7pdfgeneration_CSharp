@@ -80,7 +80,6 @@ ImageData imageData = ImageDataFactory.Create(GOOGLE_MAPS_PNG);
 document.Add(new Image(imageData));
 ```
 
-## common
+## Common
 The generated pdf file (target.pdf) is written to the output folder.
- 
 All the source code is placed in main class example.iText7pdfgeneration.Program.
